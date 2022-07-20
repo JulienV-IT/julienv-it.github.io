@@ -1,0 +1,105 @@
+# ls
+ls lsusb lsblk lshw lspci lsmod
+
+
+## listing /dev
+
+ls -l /dev/disk/by-uuid
+
+## listing hardware
+lshw -html > config.html
+
+# cut
+
+
+# cd
+
+
+
+# cp
+
+# fdisk 
+-l -n -p
+
+
+# touch 
+
+
+
+# mv
+
+
+
+# grep
+
+
+
+# tail
+
+
+
+# bmon 
+
+
+# rm
+
+
+
+
+# head 
+
+
+# sudo 
+
+
+
+# cal
+
+
+
+# mkdir 
+
+mkdir -p folder/subfolder
+
+mkdir -p folder/{sub1,sub2,sub3/subsub}
+
+
+
+
+# hd 
+hddtemp hdparm
+
+hdparm -I /dev/sda
+
+# inxi
+
+inxi -Fxxxrz
+
+
+#mc midnightcommander
+
+mc 
+
+## mc editor
+mc -e file
+
+
+#mount 
+
+mount -a #monter une partitions
+
+#blkid 
+
+
+# tr
+
+
+
+
+# uuid identifiant de la partition 
+
+
+
+# sudo 
+su 
+-i
