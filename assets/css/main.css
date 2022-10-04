@@ -3464,7 +3464,7 @@
 		background-image:url('images/clavier.jpg');
 		background-size: cover;
 		display: -moz-flex;
-		opacity: 0.3;
+		opacity: 0.5;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
@@ -3500,7 +3500,9 @@
 			z-index: 1;
 			padding: 0.35em 1em;
 			position: relative;
-			color: lightgreen;
+			color: yellowgreen;
+			background-color: rgba(255,255,255,0.3);
+			/*background-color: lightgreen;*/
 
 		}
 
